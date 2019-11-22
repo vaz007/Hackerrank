@@ -7,7 +7,7 @@
     Output  = 1+4+6 - 3+4+3 = 1
 */
 
-const diagnolDifference = arr => {
+const diagonalDifference = arr => {
     let mainSum = 0,
       secondarySum = 0;
     for (let row = 0; row < arr.length; row++) {
@@ -16,7 +16,7 @@ const diagnolDifference = arr => {
     }
     console.log(mainSum + " " + secondarySum);
   };
-  diagnolDifference([
+  diagonalDifference([
       [1, 2, 3],
       [3, 4, 5],
       [3, 4, 6]
