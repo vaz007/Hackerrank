@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/vaz007/Hackerrank/issues"
   },
-  "homepage": "https://github.com/vaz007/Hackerrank#readme"
+  "homepage": "https://github.com/vaz007/Hackerrank#readme",
+  "dependencies": {
+    "jest": "^25.2.3"
+  }
 }
